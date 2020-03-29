@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86953" started-at="2020-03-29T09:14:38Z" finished-at="2020-03-29T09:16:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86953" started-at="2020-03-29T09:14:38Z" finished-at="2020-03-29T09:16:05Z">
+      <class name="com.Testcase.Test_regression">
+        <test-method status="PASS" signature="Tc_01()[pri:0, instance:com.Testcase.Test_regression@5ad851c9]" name="Tc_01" is-config="true" duration-ms="29937" started-at="2020-03-29T09:14:38Z" finished-at="2020-03-29T09:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_01 -->
+        <test-method status="PASS" signature="Tc_02()[pri:0, instance:com.Testcase.Test_regression@5ad851c9]" name="Tc_02" duration-ms="19160" started-at="2020-03-29T09:15:08Z" finished-at="2020-03-29T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_02 -->
+        <test-method status="PASS" signature="showdata(java.lang.String, java.lang.String)[pri:0, instance:com.Testcase.Test_regression@5ad851c9]" name="showdata" duration-ms="4" started-at="2020-03-29T09:15:29Z" data-provider="Data" finished-at="2020-03-29T09:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7083155351]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdata -->
+        <test-method status="PASS" signature="showdata(java.lang.String, java.lang.String)[pri:0, instance:com.Testcase.Test_regression@5ad851c9]" name="showdata" duration-ms="3" started-at="2020-03-29T09:15:29Z" data-provider="Data" finished-at="2020-03-29T09:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7083155351]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdata -->
+        <test-method status="PASS" signature="showdata(java.lang.String, java.lang.String)[pri:0, instance:com.Testcase.Test_regression@5ad851c9]" name="showdata" duration-ms="3" started-at="2020-03-29T09:15:29Z" data-provider="Data" finished-at="2020-03-29T09:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7083155351]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdata -->
+        <test-method status="PASS" signature="Tc_04()[pri:1, instance:com.Testcase.Test_regression@5ad851c9]" name="Tc_04" duration-ms="18579" started-at="2020-03-29T09:15:29Z" finished-at="2020-03-29T09:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_04 -->
+        <test-method status="PASS" signature="Tc_05()[pri:2, instance:com.Testcase.Test_regression@5ad851c9]" name="Tc_05" duration-ms="11738" started-at="2020-03-29T09:15:48Z" finished-at="2020-03-29T09:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_05 -->
+        <test-method status="PASS" signature="Tc_10()[pri:0, instance:com.Testcase.Test_regression@5ad851c9]" name="Tc_10" is-config="true" duration-ms="5919" started-at="2020-03-29T09:15:59Z" finished-at="2020-03-29T09:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_10 -->
+      </class> <!-- com.Testcase.Test_regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
