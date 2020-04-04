@@ -16,8 +16,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class Keyword {
@@ -171,12 +173,31 @@ public class Keyword {
 				 }
 	//--------------------------------------------------------------------------------------------------
 			 //Return to Homepage
-			 public static void returnhomepage()
+			 public static void returnpage()
 				{
 					JavascriptExecutor js = (JavascriptExecutor)Constant.driver;
 					js.executeScript("window.history.go(-1)");
 					System.out.println("Amazon Homepage");
 				}
 	//----------------------------------------------------------------------------------------------
-			
+			 //get value from dropdown
+	/*
+	 * public String getDropDownText() { return new
+	 * Select(dropdown).getFirstSelectedOption().getText(); }
+	 */
+			 public static boolean verifyTextPresent(String value)
+			 {
+			   return Constant.driver.getPageSource().contains(value);
+			 }
+	//-------------------------------------------------------------------------------------------------
+			public static String capture(WebDriver driver) throws IOException {
+				// TODO Auto-generated method stub
+				File scrFile = ((TakesScreenshot)Constant.driver).getScreenshotAs(OutputType.FILE);
+				 File Dest = new File("E:\\JavaProgram\\com.amazonapplication\\FailedTestcase\\" + System.currentTimeMillis()+".png");
+				 String errflpath = Dest.getAbsolutePath();
+				 FileUtils.copyFile(scrFile, Dest);
+				 System.out.println(" "+Dest);
+				 return errflpath;
+				 
+			}
 }
